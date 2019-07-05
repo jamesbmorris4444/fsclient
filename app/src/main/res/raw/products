@@ -1,0 +1,61 @@
+Clothing,Pants,3499,2
+Clothing,Shoes,12400,4
+Clothing,Hat,1765,2
+Clothing,Skirt,3459,3
+Clothing,Socks,599,1
+Clothing,Jacket,5789,4
+Clothing,Capuchin,1567,4
+Clothing,Cardigan,12995,4
+Clothing,Cincture,1235,3
+Clothing,Cingulum,5678,2
+Clothing,Crucifix,14599,1
+Clothing,Fatigues,2500,4
+Clothing,Feathers,1200,1
+Clothing,Neckband,2399,1
+Clothing,Pinafore,2359,1
+Clothing,Pullover,4566,3
+Clothing,Raincoat,12300,5
+Clothing,Scapular,899,1
+Clothing,Schmatte,1588,1
+Clothing,Skullcap,2399,2
+Clothing,Surplice,3525,2
+Clothing,Toilette,4566,3
+Book,Ulysses,1265,5
+Book,Fate is the Hunter,1045,5
+Book,All Quiet on the Western Front,1879,5
+Book,The Old Man and the Sea,2995,5
+Book,The Sun Also Rises,1400,5
+Book,Churchill and Orwell,1566,5
+Book,The Swamp,899,5
+Book,The Death and Life of the Great Lakes,1899,5
+Book,A World in Disarray,1499,5
+Book,The Lost City of the Monkey God,1500,5
+Book,War for the Hell of It,1235,5
+Book,Killers of the Flower Moon,1455,5
+Book,Boomerang,2350,5
+Book,Coach Wooden and Me,3599,5
+Photography,Binocular 10x50,256000,8
+Photography,Binocular 8x40,234500,7
+Photography,Monocular,13489,5
+Photography,Lens Coating,499,1
+Photography,Microscope,125995,15
+Photography,Security Camera,44519,7
+Photography,Digital Camera,67500,3
+Photography,Camcorder,149900,11
+Photography,Hidden Camera,14900,9
+Photography,Flash,675,4
+Appliance,Dishwasher,56500,55
+Appliance,Disposal,12500,15
+Appliance,Washer,34999,61
+Appliance,Mixer,8995,18
+Appliance,Blender,4500,11
+Appliance,BowlSet,2999,5
+Appliance,Faucet,1800,7
+Appliance,Battery,5999,35
+Appliance,Table Fan,3500,30
+Appliance,Rotating Fan,4560,44
+Appliance,Dryer,12400,45
+Appliance,Humidifier,5695,34
+Appliance,Cooktop,235,95,89
+Appliance,Refrigerator,45600,134
+Appliance,Space Heater,12499,45
