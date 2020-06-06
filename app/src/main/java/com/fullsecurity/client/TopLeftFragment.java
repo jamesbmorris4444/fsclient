@@ -5,12 +5,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.fragment.app.Fragment;
+
 import com.fullsecurity.server.SDVServer;
 import com.fullsecurity.shared.MainActivity;
 import com.fullsecurity.shared.R;
 
 @SuppressWarnings("all")
-public class TopLeftFragment extends android.support.v4.app.Fragment {
+public class TopLeftFragment extends Fragment {
 
     private SDVServer sdvServer;
     private View view;

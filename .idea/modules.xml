@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FSClient.iml" filepath="$PROJECT_DIR$/FSClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FSClient.iml" filepath="$PROJECT_DIR$/FSClient.iml" group="FSClient" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="FSClient/app" />
     </modules>
   </component>
 </project>
