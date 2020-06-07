@@ -35,10 +35,9 @@ public class SDVRequestProcessorEncryptionLoop extends MSCommunicationsWrapper {
     private String dbResult;
     private  int clientId;
 
-    public SDVRequestProcessorEncryptionLoop(BitSet portAssignments, ArrayList<ServerState> serverStateList, ArrayList<MSSettings> msMap,
-                                             Semaphore sslSemaphore, Semaphore portSemaphore, int port, MainActivity mainActivity) {
-        super(portAssignments, serverStateList, msMap, sslSemaphore, portSemaphore, port, mainActivity, nameUsedForOutputToLogger);
+    public SDVRequestProcessorEncryptionLoop(int port) {
 
+        super(port, nameUsedForOutputToLogger);
         this.portAssignments = portAssignments;
         this.portSemaphore = portSemaphore;
         this.serverStateList = serverStateList;

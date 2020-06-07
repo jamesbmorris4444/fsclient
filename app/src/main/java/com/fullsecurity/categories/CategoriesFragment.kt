@@ -17,9 +17,10 @@ import com.fullsecurity.shared.R
 import com.fullsecurity.storeitem.StoreItem
 import java.util.*
 
-class CategoriesFragment(private val ctxt: Context, var key: ByteArray, private val mainActivity: MainActivity, var userId: Int) : ClientCommunicationsWrapper(key) {
+class CategoriesFragment(private val ctxt: Context, keyValue: ByteArray, private val mainActivity: MainActivity, var userId: Int) : ClientCommunicationsWrapper(keyValue) {
     private val storeItems: ArrayList<StoreItem>
     private val requestedMSName: String? = null
+    var key: ByteArray
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val recyclerView = mainActivity.findViewById<View>(R.id.categoriesRecyclerView) as RecyclerView
         val layoutManager = LinearLayoutManager(ctxt)
@@ -71,5 +72,6 @@ class CategoriesFragment(private val ctxt: Context, var key: ByteArray, private 
 
     init {
         storeItems = ArrayList()
+        key = keyValue
     }
 }

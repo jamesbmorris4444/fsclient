@@ -757,7 +757,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation drawer item clicks here
-        loadStoreItemFragment(categoriesFragment.key, categoriesFragment.userId, item.getTitle().toString());
+        loadStoreItemFragment(categoriesFragment.getKey(), categoriesFragment.getUserId(), item.getTitle().toString());
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

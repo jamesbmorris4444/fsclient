@@ -38,7 +38,6 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
 
 import static android.util.Base64.encodeToString;
-import static junit.framework.Assert.assertEquals;
 
 @SuppressWarnings("all")
 public class SDVClient {
@@ -784,7 +783,6 @@ public class SDVClient {
         //   5: server RSA public key N part (plaintext)
 
         clientIdentifier = responsePayload.getClientId();
-        assertEquals(clientIdentifier, userId);
 
         // compute shared secret key K = (g^y mod p)^x mod p
         BigInteger publicKeyAsBigInteger = new BigInteger(responsePayload.getPayload(3));
